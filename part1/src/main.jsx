@@ -1,9 +1,5 @@
-const App = () => {
-  return (
-    <div>
-      <p>Hello ze world</p>
-    </div>
-  )
-}
+import ReactDOM from 'react-dom/client'
 
-export default App
+import App from './App'
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />)
